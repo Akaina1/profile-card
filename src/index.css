@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+.card {
+  width: 500px;
+  height: 1000px;
+  padding: 10px;
+  margin: 40px;
+  border: #000000 10px ridge;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+.card::after {
+  content: "";
+  display: block;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+  border: #000000 4px solid;
+}
+
+.data {
+  padding: 32px;
+  padding-top: 24px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin-top: 22px;
+}
+
+.skill {
+  padding: 4px 12px;
+  border-radius: 10px;
+  border: #a1a0a0 2px solid;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.skill:hover {
+  background-color: #ffffff;
+  color:#222;
+  border: #000000 2px solid;
+  scale: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.link { 
+  display: flex;
+  margin-top: 36px;
+  margin-bottom: 20px;
+  border: #a1a0a0 7px ridge;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 24px;
+  background-color: aquamarine;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #ffffff;
+  color:#222;
+  border: #000000 2px solid;
+  scale: 1.2;
+  transition: all 0.3s ease-in-out;
+}
